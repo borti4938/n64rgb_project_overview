@@ -1,38 +1,40 @@
 N64RGB Projects
 ---
 
+### History and Introduction
+
 The N64 projects presented here were part of a single repository, which is for versioning still an accessible [archive on Github](https://github.com/borti4938/n64rgb).
 
 The project started with a tiny THS7374 based RGB bypass board back in 2015 or so.
 Later, I started with writing my code for viltetims N64RGB as I was wishing to have features like VI-DeBlur (skipping interpolation pixels in 320x240 video mode) and a reset which can be triggered via a controller combination (in game reset).
-Things were going, I designed a DIY PCB for myself allowing my to add new features.
+Things were going, I designed a DIY PCB for myself allowing me to add new features.
 
 Over the time the repository grew a lot, especially with the N64Advanced project and the N64Advanced2.
 For an easier management and maybe also to give interested people an better overview on the different projects I decided to break down the different parts into several dedicated repositories.
 My greatest wish is that features like release and issue tracking will be a lot easier as they can be focused in smaller repositories instead of being hidden in a large one.
 
-The projects are meant as do it your self projects.
+The projects are meant as "Do It Yourself"-projects (DIY-projects).
 So the repositories should be sufficient that everybody having appropriate knowledge (e.g. knowing how to order PCBs, sourcing components, soldering skills for assembly and installation) are able to build everything on its own.
 However, there are some shops out there selling ready to install modification kits and/or offering installation services.
 I am not affiliated to any of those shops, which means that I do not get any profit of their sales (besides of testing prototypes, one time gifts or donations, thinks like that).
 
-So, if you like what I am doing please consider leaving a short message via email or twitter or even leave my a coffee or two (link on my GitHub profile page) like many others did.
+So, if you like what I am doing, please consider leaving me a short message via email or twitter or even buying me a coffee or two (link on my GitHub profile page) like many others did.
 Thank you very much - I really appreciate any kind of feedback!
-This helps me keeping my motivation for further projects.
+It helps me keeping my motivation up for further projects.
 This hobby is very time consuming and especially the N64Advanced and N64Advanced2 were very intensive projects for me.
 
 Back to topic.
 In the following I will guide you to the different projects.
-Repositories are linked.
+The repositories are linked.
 
 
 ### Brief Description of Projects
 
 #### N64Advanced
   
-- Digital to analog video mod with advanced feature set compared to smaller CPLD based RGB mods
+- FPGA based digital to analog video mod with advanced feature set compared to smaller CPLD based RGB mods
   - Outputs RGB, RGsB, YPbPr
-  - Line doubling and trippling incl. (simple) scanline emulation
+  - Line doubling (480p / 576p) and trippling (NTSC only, 720p (non-standard)) incl. (simple) scanline emulation
   - VI-DeBlur
   - 16bit mode
   - In game reset
@@ -50,7 +52,7 @@ Repositories are linked.
 
 #### N64Advanced2
 
-- Digital to digital video mod with advanced feature set and powerful scaling capabilities
+- FPGA based digital to digital video mod with advanced feature set and powerful scaling capabilities
   - Comparable to N64Digital and UltraHDMI, both great modding kits, but this is open source: DIY
   - Resolution up to 1440p
   - Flexible scaler for each resolution
@@ -70,7 +72,7 @@ Repositories are linked.
 
 #### N64RGB
 
-- A digital to analog video mod
+- A CPLD based digital to analog video mod
   - A rather simple universal RGB modding kit
   - Comparable to the commercial solution of viletim, but with a dedicated digital to analog converter IC instead of a r2r ladder
   - VI-DeBlur and 16bit mode switchable with the controller or with a mechanical switchable
