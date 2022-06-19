@@ -87,6 +87,19 @@ The repositories are linked.
   - Developer Information
 
 
+#### N64RGB_Flex (N64RGBv3)
+
+- A fully custom flex PCB with a CPLD based digital to analogg video mod
+  - Rather simple and universial RGB modding kit
+  - Super easy to install with decent soldering skills
+  - VI-DeBlur
+  - just two wires required for a deblur switch
+- Common repository for PCB and Firmware: [n64rgb\_flex](https://github.com/borti4938/n64rgb_flex)
+  - PCB file, BOM, etc. for DIY or production
+  - Kit installation instruction
+  - firmware files incl. pre-build binaries
+  
+
 #### N64RGB for Viletims Commercial Modding Kit
 
 - An alternative firmware for [viletims N64RGB](http://www.etim.net.au/n64rgb/)
