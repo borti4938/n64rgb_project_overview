@@ -3,7 +3,7 @@ N64RGB Projects
 
 ### History and Introduction
 
-The N64 projects presented here were part of a single repository, which is for versioning still an accessible [archive on Github](https://github.com/borti4938/n64rgb).
+The N64 projects presented here were part of a single repository, which is for versioning still an accessible for me, but not in public (private archive).
 
 The project started with a tiny THS7374 based RGB bypass board back in 2015 or so.
 Later, I started with writing my code for viltetims N64RGB as I was wishing to have features like VI-DeBlur (skipping interpolation pixels in 320x240 video mode) and a reset which can be triggered via a controller combination (in game reset).
@@ -98,17 +98,6 @@ The repositories are linked.
   - PCB file, BOM, etc. for DIY or production
   - Kit installation instruction
   - firmware files incl. pre-build binaries
-  
-
-#### N64RGB for Viletims Commercial Modding Kit
-
-- An alternative firmware for [viletims N64RGB](http://www.etim.net.au/n64rgb/)
-  - VI-DeBlur and 16bit mode switchable with the controller or a mechanical switchable
-  - In game reset via controller
-- Repository for Firmware: [n64rgb\_viletim\_fw](https://github.com/borti4938/n64rgb_fw4viletim)
-  - Firmware for viletims commercial hardware kit
-  - User Information
-  - Developer Information
 
 
 #### Miscellaneous Add Ons
@@ -119,6 +108,11 @@ The repositories are linked.
   - Flexible PCBs for N64RGBv2.1 and N64Adv installation
   - Power Regulator for older/other CPLD based N64RGB kits
   - THS7374 based RGB amp for N64s already outputting RGB
+  
+
+#### N64RGB for Viletims Commercial Modding Kit
+
+- Repository for firmware not available anymore (private archive)
 
 
 ### Acknowledgement
@@ -126,7 +120,7 @@ The repositories are linked.
 This project would not be what is with the help and contribution of many other people.
 The following 'list' is neither sorted by importance, nor complete.
 
-Of course, many thanks to viletim for his initial CPLD-based DAC project, for providing a valuable commercial modding board as well as for publishing the schematics and source codes for his [N64RGB project](http://www.etim.net.au/n64rgb/).
+Of course, many thanks to viletim for his initial CPLD-based DAC project.
 
 I also want to send many thanks to Ikari_01.
 He wrote the code to detect 480i and PAL/NTSC output of the N64 with the CPLD.
